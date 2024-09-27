@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int harga = 150000;
+    float diskon = 12.5;
+
+    int besar_diskon = harga * diskon / 100;
+    int harga_setelah_diskon = harga - besar_diskon;
+
+    cout << "Harga : " << harga << " ribu" << endl;
+    cout << "Diskon : " << diskon << endl;
+    cout << "Besarnya diskon dari harga : " << besar_diskon << endl;
+    cout << "Harga setelah diskon : " << harga_setelah_diskon << " ribu" << endl;
+
+    return 0;
+}
